@@ -6,6 +6,7 @@
   "scripts": {
     "predploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "tailwindcss build src/input.css -o build/output.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
